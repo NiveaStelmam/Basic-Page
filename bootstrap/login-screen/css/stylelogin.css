@@ -1,0 +1,149 @@
+/* Background with image */
+body {
+  background: url('../images/soil.png') no-repeat center center fixed;
+  background-size: cover;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Central white box */
+.login-box {
+  background-color: #ffffff;
+  width: 480px;
+  max-width: 90%;
+  border-radius: 18px;
+  box-shadow: 0 4px 25px rgba(0, 0, 0, 0.25);
+  padding: 35px 40px 50px; 
+  text-align: center;
+}
+
+/* Logo — closer to the top and the title */
+.login-box img {
+  width: 130px;
+  height: auto;
+  margin-top: -5px;     
+  margin-bottom: -5px;  
+}
+
+/* Title and subtible */
+.title {
+  font-size: 3rem;
+  font-weight: 900;
+  color: #000;
+  margin-top: 0;
+  margin-bottom: 2px;   
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 25px;  
+}
+
+/* Form fields */
+.form-label {
+  font-weight: 500;
+  color: #222;
+}
+
+.form-control {
+  border-radius: 10px;
+  border: 1px solid #aaa;
+  padding: 10px;
+  font-size: 1rem;
+}
+
+/* Green button */
+.btn-success {
+  background-color: #28a745;
+  border: none;
+  border-radius: 10px;
+  font-weight: 600;
+  padding: 12px;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-success:hover {
+  background-color: #218838;
+}
+
+/* Link "Forgot your password?" */
+.forgot-password {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.forgot-password a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.forgot-password a:hover {
+  text-decoration: underline;
+}
+
+/* ===============================
+    Responsiveness
+   =============================== */
+
+/* Tablets */
+@media (max-width: 992px) {
+  .login-box {
+    width: 420px;
+    padding: 30px 30px 45px;
+  }
+
+  .login-box img {
+    width: 115px;
+    margin-top: -5px;
+    margin-bottom: -5px;
+  }
+
+  .title {
+    font-size: 2.6rem;
+  }
+
+  .subtitle {
+    font-size: 1.1rem;
+  }
+}
+
+/* Cell phones */
+@media (max-width: 576px) {
+  .login-box {
+    width: 90%;
+    padding: 25px 25px 35px;
+    border-radius: 14px;
+  }
+
+  .login-box img {
+    width: 95px;
+    margin-top: -3px;
+    margin-bottom: -3px;
+  }
+
+  .title {
+    font-size: 2rem;
+    margin-bottom: 3px;
+  }
+
+  .subtitle {
+    font-size: 0.95rem;
+    margin-bottom: 20px;
+  }
+
+  .form-control {
+    padding: 9px;
+    font-size: 0.95rem;
+  }
+
+  .btn-success {
+    padding: 10px;
+    font-size: 0.95rem;
+  }
+
+  .forgot-password {
+    font-size: 0.8rem;
+  }
+}
