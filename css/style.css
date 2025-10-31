@@ -1,0 +1,71 @@
+        body{
+            margin: 0px;
+            padding: 0px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            background: url('../images/background.jpg') no-repeat left top;
+            background-size: cover;
+        }
+
+        header{
+            background-color: black;
+            color: white;
+            padding: 25px;
+            font-size: 2rem;
+        }
+
+        main{
+            padding: 0px 20px 0px 20px;
+            padding-right: 25px;
+        }
+
+        h1{
+            text-align: center;
+        }
+
+    
+        th, td{
+            border: 1px solid black; 
+            padding: 10px;
+            text-align: center;
+            
+        }
+
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            font-size: 1rem;
+            padding: 10px;  
+            margin-top: 20px; 
+            
+        }
+
+        #title-1{
+            color: #33475b;
+        }
+
+        #title-2{
+            color: #b22222;
+        } 
+
+        .description{
+            text-align: justify;
+            color: #33475b
+        }
+
+        .table{
+            background-color: #d3d3d3;
+            width: 100%;
+            border-collapse: collapse;
+            
+        }
+        .white-background{
+            background-color: white;
+            border-radius: 10px;
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+      
+
+  
